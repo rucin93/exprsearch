@@ -1,0 +1,9 @@
+[package]
+name = "expr_rust"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+rayon = "1.10"
+libc = "0.2"
+hashbrown = { version = "0.15", features = ["rayon"] }
