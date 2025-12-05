@@ -135,7 +135,7 @@ Expressions are deduplicated based on semantic equivalence — two expressions a
 
 ## Acknowledgements
 
-This project was inspired by [pysearch](https://github.com/lynn/pysearch) by Lynn — a brute-force search tool for short expressions used in code golf.
+This project was influenced by [pysearch](https://github.com/lynn/pysearch) by Lynn — a brute-force search tool for short expressions used in code golf.
 
 ## License
 
