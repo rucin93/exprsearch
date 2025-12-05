@@ -1012,7 +1012,6 @@ mod aarch64 {
                             
                             // Overflow check? (min / -1)
                             // For simplicity skip overflow check to save space/time or implement simple one
-                            // Actually user wants correct behavior.
                             
                             self.ldr(tmp, ptr);
                             self.sdiv(Reg::X17, tmp, rr); // X17 = result div
